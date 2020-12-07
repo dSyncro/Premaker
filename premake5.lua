@@ -1,3 +1,5 @@
+group "Build"
+
 project "Premake"
 
 	kind "Utility"
@@ -15,3 +17,5 @@ project "Premake"
 	{
 		"%{prj.location}/bin/premake5.exe %{_ACTION} --file=\"%{wks.location}premake5.lua\""
 	}
+
+group ""
